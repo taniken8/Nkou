@@ -686,6 +686,7 @@ a {
 
 .youtube iframe {
     vertical-align: bottom;
+    border-width: 0px;
 }
 
 .youtube p {
@@ -913,11 +914,17 @@ a {
     margin-bottom: 13px;
 }
 
-.articleDetailFoot .navTitle .net-club,
 .articleDetailFoot .navTitle .admission-information {
     margin-top: 18px;
     padding-top: 20px;
     border-top: solid 1px #c9c9c9;
+}
+
+.articleDetailFoot .net-club {
+    margin-top: 18px;
+    padding-top: 20px;
+    border-top: solid 1px #c9c9c9;
+    display: block;
 }
 
 .articleDetailFoot .navTitle span {
